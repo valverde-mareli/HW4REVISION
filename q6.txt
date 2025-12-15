@@ -1,0 +1,7 @@
+1. In the code given, the variable that change after the function call is
+b. After the function calls b becomes [10, 5]. 
+
+2. This happens as such because a is an integer which immutable ( cannot 
+be changed ) so it is crating a new integer onject instead of changing.
+B is different and is changing because it is a list [] which are mutable. 
+It is basically updating the list which is where the change is occurring.
